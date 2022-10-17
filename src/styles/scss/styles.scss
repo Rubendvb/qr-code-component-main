@@ -1,0 +1,56 @@
+@use "variaveis";
+@use "mixins";
+
+body {
+  font-family: variaveis.$Font-Outfit;
+  background-color: variaveis.$Light-gray;
+  padding: 0 1.875rem;
+  font-size: 16px;
+}
+
+.main-container {
+  width: 20rem;
+  background-color: variaveis.$White;
+  margin: 5.313rem auto 1rem;
+  border-radius: 20px;
+
+  &__container-img--img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.563rem;
+    margin-bottom: 0.875rem;
+  }
+
+  &__content {
+    padding: 0 2.188rem 2.75rem;
+
+    h1 {
+      color: variaveis.$Dark-blue;
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-align: center;
+      line-height: normal;
+      margin-bottom: 1.625rem;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 0.938rem;
+      color: variaveis.$Grayish-blue;
+      text-align: center;
+      line-height: normal;
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.938rem;
+  color: variaveis.$Dark-blue;
+  line-height: normal;
+
+  a {
+    text-decoration: underline;
+  }
+}
