@@ -11,6 +11,11 @@ body {
   margin: 5.313rem auto 1rem;
   border-radius: 20px;
 }
+@media (min-width: 1440px) {
+  .main-container {
+    margin-top: 120px;
+  }
+}
 .main-container__container-img--img {
   width: 100%;
   padding: 1rem;

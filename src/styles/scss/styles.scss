@@ -14,6 +14,8 @@ body {
   margin: 5.313rem auto 1rem;
   border-radius: 20px;
 
+  @include mixins.desktop-view;
+
   &__container-img--img {
     width: 100%;
     padding: 1rem;
