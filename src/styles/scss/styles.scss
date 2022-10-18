@@ -4,8 +4,9 @@
 body {
   font-family: variaveis.$Font-Outfit;
   background-color: variaveis.$Light-gray;
-  padding: 0 1.875rem;
   font-size: 16px;
+
+  @include mixins.desktop-view;
 }
 
 .main-container {
@@ -13,8 +14,6 @@ body {
   background-color: variaveis.$White;
   margin: 5.313rem auto 1rem;
   border-radius: 20px;
-
-  @include mixins.desktop-view;
 
   &__container-img--img {
     width: 100%;

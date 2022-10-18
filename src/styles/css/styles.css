@@ -1,8 +1,18 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212deg, 45%, 89%);
-  padding: 0 1.875rem;
   font-size: 16px;
+}
+@media (min-width: 1440px) {
+  body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .main-container {
@@ -10,11 +20,6 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   margin: 5.313rem auto 1rem;
   border-radius: 20px;
-}
-@media (min-width: 1440px) {
-  .main-container {
-    margin-top: 120px;
-  }
 }
 .main-container__container-img--img {
   width: 100%;
